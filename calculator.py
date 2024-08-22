@@ -102,6 +102,8 @@ class Equation():
         return parts[0]
       
 
-task = Equation(input())
-task.split_equation()
-print(task.solve())
+if __name__ == "__main__":
+    task = Equation(input())
+    task.split_equation()
+    print(task.solve())
+    
